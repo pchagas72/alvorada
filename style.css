@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.flexbox > * {
+    margin: 1em 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo h3 {
+
+    text-decoration: underline;
+}
+
+.conteudo {
+
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.lista-grupos li{
+    margin-top: 20px;
+    list-style:upper-roman;
+    
+}
+
+a {
+    font-size: 18px;
+    text-decoration: underline;
+    color: black;
+}
+
+/* <p><a href="https://drive.google.com/drive/folders/12UkB7maOuytk5s1bsydAUoe_0A4rSHdv?usp=share_link">Link do google drive</a></p>
+<p>Lista de materiais</p>
+<ul class="lista-grupos">
+    <li><a href="https://t.me/obrabotaon">O brabo tá on - telegram</a> / Leonardo</li>
+    <li><a href="https://t.me/+zSfWTEonSMdmNzYx">Gagá insano - telegram</a> / Leonardo</li>
+    <li><a href="https://t.me/+C7Y2ede_tHVmY2Yx"> Farias Brito IME/ITA 2020 - telegram</a> / Leonardo</li>
+    <li><a href="https://t.me/bibliotecamilitarbackup"> Biblioteca Militar (backup) - telegram</a> / Leonardo</li>
+    <li><a href="https://t.me/ELITE_CURSO">Elite Curso - telegram</a> / Leonardo, "Todo tipo de curso"</li>
+    <li><a href="https://t.me/joinchat/okdj7LbHHWUwOWQx">Todo tipo de livro - Telegram</a> / Leonardo</li>
+</ul> */
